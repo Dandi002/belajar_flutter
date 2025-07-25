@@ -8,7 +8,7 @@ class DetailWisataScreen extends StatelessWidget{
   final String desc;
 
   DetailWisataScreen({
-    required this.  nama,
+    required this.nama,
     required this.kota,
     required this.image,
     required this.desc,

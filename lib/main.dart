@@ -1,6 +1,8 @@
+import 'package:dandi_project/belajar/form_screen.dart';
 import 'package:dandi_project/container/dua.dart';
 import 'package:dandi_project/container/satu.dart';
 import 'package:dandi_project/container/tiga.dart';
+import 'package:dandi_project/latihan/latihan_dua.dart';
 import 'package:dandi_project/list_view/contoh_dua.dart';
 import 'package:dandi_project/list_view/contoh_empat.dart';
 import 'package:dandi_project/list_view/contoh_satu.dart';
@@ -24,7 +26,7 @@ class BelajarFlutter extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WisataScreen(),
+      home: BelajarForm(),
     );
   }
 }
